@@ -1,8 +1,0 @@
-# your mobile number 
-mobile_num: 7036788725
-
-# twilio information
-twilio:
-  num: +16692806623                                    # number associated with twilio
-  account_sid: ACe5f828319d1ca295ab0c4c5b7ac042e4      # the sid associated with twilio
-  auth_token: 85c4c1146ea55d0498a5b6568c7ae8ce         # authorization token
