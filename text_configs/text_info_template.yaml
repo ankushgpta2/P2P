@@ -1,0 +1,9 @@
+# your mobile number 
+mobile_num: 
+
+# twilio information
+twilio:
+  num:                      # number associated with twilio
+  account_sid:       # the sid associated with twilio
+  auth_token:        # authorization token
+
