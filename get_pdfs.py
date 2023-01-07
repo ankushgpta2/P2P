@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import os
 import warnings 
 from datetime import date
+import glob
 today = date.today()
 
 
@@ -90,7 +91,7 @@ class TextRetrieval():
     def check_if_paper_exists(self, paper_name):
         # get the list of directories within paperswithcode 
         outside_dir = '/'.join(self.download_location.split('/')[:-1])
-        if [directory for directory in os.listdir(outside_dir) if f"{paper_name}.pdf" in list(os.listdir(f"{outside_dir}/{directory}"))]:
+        if [directory for directory in list(glob.glob(os.path.join(f"{outside_dir}", '*'))) if f"{paper_name}.pdf" in list(os.listdir(directory))]:
             return True
         else:
             return False
