@@ -13,7 +13,7 @@ def send_text(paper_information, path_2_text_yaml):
 
     # get the datetime for text message
     now = datetime.now()
-    date_n_time = now.strftime("%d/%m/%Y %H:%M:%S")
+    date_n_time = now.strftime("%m/%d/%Y %H:%M:%S")
 
     # construct the text message with the paper links and paper names
     text_to_send = f"\nHello From WebScraper Bot for paperswithcode.com! 🤖 \n\n" + \
