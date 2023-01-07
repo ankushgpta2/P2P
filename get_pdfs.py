@@ -19,6 +19,8 @@ class TextRetrieval():
         self.pdf_responses = []
     
     def get_pdf(self):
+        print(f"\n{today}\n{'-' * 50}")
+        
         self.splitted = [x.split('"/')[1].split('">')[0] for x in str(self.parameters['soup']).split("\n") 
                     if '<a href="/paper/' in x  # conditional 1
                     and '<h1>' not in x  # conditional 2
@@ -38,9 +40,9 @@ class TextRetrieval():
             self.download_pdf(response, paper_name, nested_url)
         
         if self.global_iterator == 0:
-            warnings.warn(f"\n\nWARNING: Did not download any PDFs... most likely because they already exist! Please double check.")
+            print(f"WARNING: Did not download any PDFs... most likely because they already exist! Please double check.\n{'-' * 50}")
         else:
-            print(f"\nDownloaded {self.global_iterator}/{len(self.splitted)} Papers that Were Found")
+            print(f"Downloaded {self.global_iterator}/{len(self.splitted)} Papers that Were Found\n{'-' * 50}")
 
     def get_pdf_link(self, nested_url, paper_name):
         # get all of the hyperlinks
@@ -69,7 +71,7 @@ class TextRetrieval():
             
             # make a new pdf in this location
             if not os.path.isfile(f"{self.download_location}/{paper_name}.pdf"):
-                print("Downloading Paper: ", paper_name)
+                print(f"\nDownloading Paper: {paper_name}")
                 pdf = open(f"{self.download_location}/{paper_name}.pdf", 'wb')
                 pdf.write(response.content)
                 pdf.close()
