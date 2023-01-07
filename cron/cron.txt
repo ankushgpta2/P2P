@@ -1,37 +1,32 @@
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
-/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ankushgupta/Documents/P2P/main.py': [Errno 1] Operation not permitted
+/Users/ankushgupta/Documents/P2P/get_pdfs.py:41: UserWarning: 
+
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+  warnings.warn(f"\n\nWARNING: Did not download any PDFs... most likely because they already exist! Please double check.")
+Downloading Paper:  diffusion-probabilistic-models-for-scene
+File Downloaded!
+
+Downloading Paper:  diffusion-models-in-vision-a-survey
+File Downloaded!
+
+Downloading Paper:  maud-an-expert-annotated-legal-nlp-dataset
+File Downloaded!
+
+
+Downloaded 3/10 Papers that Were Found
+Downloading Paper:  muse-text-to-image-generation-via-masked
+File Downloaded!
+
+
+Downloaded 1/10 Papers that Were Found
+/Users/ankushgupta/Documents/P2P/get_pdfs.py:41: UserWarning: 
+
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+  warnings.warn(f"\n\nWARNING: Did not download any PDFs... most likely because they already exist! Please double check.")
+/Users/ankushgupta/Documents/P2P/get_pdfs.py:41: UserWarning: 
+
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+  warnings.warn(f"\n\nWARNING: Did not download any PDFs... most likely because they already exist! Please double check.")
+/Users/ankushgupta/Documents/P2P/get_pdfs.py:41: UserWarning: 
+
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+  warnings.warn(f"\n\nWARNING: Did not download any PDFs... most likely because they already exist! Please double check.")
