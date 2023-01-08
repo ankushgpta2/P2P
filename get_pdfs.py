@@ -17,6 +17,9 @@ class TextRetrieval():
         self.global_iterator = 0
         self.splitted = None
         self.pdf_responses = []
+
+        # get the text utility class with the static class functions
+        self.text_util = TextUtility()
     
     def get_pdf(self):
         print(f"\n{today}\n{'-' * 50}")
@@ -60,8 +63,9 @@ class TextRetrieval():
 
     def download_pdf(self, response, paper_name, nested_url):
         # check if the paper exists in any of the other directories
-        feedback = self.check_if_paper_exists(
-            paper_name=paper_name
+        feedback = self.text_util.check_if_paper_exists(
+            paper_name=paper_name, 
+            download_location=self.download_location
         )
 
         if feedback is False:
@@ -90,9 +94,16 @@ class TextRetrieval():
                 # save it to the pdf responses above for podcast generation
                 self.pdf_responses.append(response)
 
-    def check_if_paper_exists(self, paper_name):
+
+class TextUtility():
+    def __init__(self):
+        """
+        """
+
+    @staticmethod
+    def check_if_paper_exists(paper_name, download_location):
         # get the list of directories within paperswithcode 
-        outside_dir = '/'.join(self.download_location.split('/')[:-1])
+        outside_dir = '/'.join(download_location.split('/')[:-1])
         if [directory for directory in list(glob.glob(os.path.join(f"{outside_dir}", '*'))) if f"{paper_name}.pdf" in list(os.listdir(directory))]:
             return True
         else:

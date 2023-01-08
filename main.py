@@ -13,7 +13,7 @@ from get_pdfs import *
 from notify_via_text import send_text
 
 # import in the podcast related function
-from convert_2_podcast import get_pod 
+from convert_2_podcast import *
 
 
 def get_args():
@@ -22,6 +22,7 @@ def get_args():
     parser.add_argument('--send_text_message', type=bool, default=True, help='whether or not to send text message')
     parser.add_argument('--convert_to_podcast', type=bool, default=True, help='whether or not to convert to podcast')
     parser.add_argument('--name_of_text_yaml', type=str, default='ankush_text_info.yaml', help='name of yaml file for text')
+    parser.add_argument('--name_of_openai_yaml', type=str, default='ankush_chatgpt_info.yaml', help='name of yaml file for chatgpt')
     return parser
 
 
@@ -44,7 +45,7 @@ def main():
     if parameters['send_text_message'] is True and get_text.for_text_message:
 
         # first get absolute path to the yaml file
-        base_dir = '/'.join(__file__.split('/')[:-1])
+        base_dir = get_base_dir(__file__)
         path_2_text_yaml = f"{base_dir}/text_configs/{parameters['name_of_text_yaml']}"
 
         send_text(
@@ -53,9 +54,23 @@ def main():
         )
 
     # convert to a podcast if you decide to do so
-    if parameters['convert_to_podcast'] is True:
-        """
-        """
+    if parameters['convert_to_podcast'] is True and get_text.pdf_responses:
+
+        # get the absolute path to the yaml file
+        base_dir = get_base_dir(__file__)
+        path_2_openai_yaml = f"{base_dir}/openai_configs/{parameters['name_of_openai_yaml']}"
+
+        # instantiate class instance 
+        podcast = Podcast(
+            path_2_openai_yaml=path_2_openai_yaml,
+            pdf_responses=get_text.pdf_responses
+        )
+
+        # call the main class function for getting the podcast 
+        podcast.get_pod()
+
+get_base_dir = lambda file_path: '/'.join(file_path.split('/')[:-1])
+
 
 if __name__ == "__main__":
     main()
