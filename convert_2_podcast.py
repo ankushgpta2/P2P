@@ -1,5 +1,6 @@
 import openai
 import yaml
+from yaml.loader import SafeLoader
 
 
 class Podcast():
@@ -15,7 +16,7 @@ class Podcast():
         )
 
         # second get the response from the request you sent for the PDF + parse it into different sections
-        print(pdf_responses[0])
+        print(self.pdf_responses[0])
         print(b)
 
         # third get the prompts needed for each section
