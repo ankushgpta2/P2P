@@ -1,0 +1,1 @@
+0 12 * * * cd /Users/ankushgupta/Documents/P2P && python3 /Users/ankushgupta/Documents/P2P/main.py >> /Users/ankushgupta/Documents/P2P/cron/cron.txt 2>&1

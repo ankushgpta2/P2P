@@ -1,0 +1,109 @@
+
+2023-01-07
+--------------------------------------------------
+
+Downloading Paper: muse-text-to-image-generation-via-masked
+File Downloaded!
+
+
+Downloading Paper: attention-is-all-you-need
+File Downloaded!
+
+
+Downloading Paper: diffusion-probabilistic-models-for-scene
+File Downloaded!
+
+
+Downloading Paper: diffusion-models-in-vision-a-survey
+File Downloaded!
+
+
+Downloading Paper: maud-an-expert-annotated-legal-nlp-dataset
+File Downloaded!
+
+
+Downloading Paper: cross-modal-transformer-via-coordinates
+File Downloaded!
+
+Downloaded 6/10 Papers that Were Found
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
+
+2023-01-07
+--------------------------------------------------
+WARNING: Did not download any PDFs... most likely because they already exist! Please double check.
+--------------------------------------------------
